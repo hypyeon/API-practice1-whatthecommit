@@ -3,14 +3,18 @@ import WhatTheCommit from './whatthecommit';
 
 // Business logic
 
-function getMessage() {
-    WhatTheCommit.getMessage()
+function getMessageUpdate() {
+    return WhatTheCommit.getMessage()
         .then(data => {
             if (data) {
                 updateMessage(data);
             } else {
-                displayError();
+                throw new Error('Empty data');
             }
+        })
+        .catch(error => {
+            console.error('Error in getMessage: ', error);
+            throw error;
         });
 }
 
@@ -24,8 +28,7 @@ function displayError() {
 }
 function generator(e) {
     e.preventDefault();
-    getMessage()
-        .then(updateMessage)
+    getMessageUpdate()
         .catch(displayError);
 }
 
