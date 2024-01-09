@@ -17,6 +17,8 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 ## Description
 - This is the first practice on how to fetch an API.
 - This particular API (https://whatthecommit.com/index.txt) does not have Auth or HTTP provided. 
+- This API retrieves random git commit messages and generate each when clicking "generate" button on this application. 
+- The messages are not recommended for official use.  
 
 ## Setup Requirements
 1. Clone this repository to your desktop and open it with a text editor.
@@ -24,14 +26,12 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 3. Build the project using webpack with `npm run build`.
 4. Start a development server with `npm run start`.
 * To lint JS files in the src folder, use `npm run lint`.
-* To run tests with Jest, use `npm run test`.
 
 ## Link
-- To be posted when ready. 
+https://hypyeon.github.io/API-practice1-whatthecommit/ 
 
 ## Known Bugs
-- To be updated when ready.
-- This development is created on Jan 08, 2024
+- No known bugs as of Jan 09, 2024
 
 ## License
 [MIT](/LICENSE.txt) Copyright © 2024 Hayeong Pyeon
