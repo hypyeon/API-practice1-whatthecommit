@@ -1,4 +1,4 @@
-# Title
+# What the Commit (API)
 by [Hayeong Pyeon](https://www.hayeong.website)
 
 ## Table of Contents
@@ -12,11 +12,11 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 ## Technologies used
 - HTML5, SCSS, JavaScript
 - npm
-- Tests using Jest
+- API
 
 ## Description
-- This is ...
-- This is ...
+- This is the first practice on how to fetch an API.
+- This particular API (https://whatthecommit.com/index.txt) does not have Auth or HTTP provided. 
 
 ## Setup Requirements
 1. Clone this repository to your desktop and open it with a text editor.
@@ -27,11 +27,11 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 * To run tests with Jest, use `npm run test`.
 
 ## Link
-
+- To be posted when ready. 
 
 ## Known Bugs
-- Currently ...
-- Last updated: 
+- To be updated when ready.
+- This development is created on Jan 08, 2024
 
 ## License
-[MIT](/LICENSE.txt) Copyright © 2023 Hayeong Pyeon
+[MIT](/LICENSE.txt) Copyright © 2024 Hayeong Pyeon
